@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🤖Code Review Assistant 🤖")
+st.title("Code Review Assistant 🤖")
 st.write("Paste your code below to receive automated review suggestions.")
 
 code_input = st.text_area("Enter code snippet here:", height=200)
